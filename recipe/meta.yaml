@@ -1,5 +1,5 @@
 {% set name = "emsdk" %}
-{% set version = "3.1.9" %}
+{% set version = "3.1.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/emscripten-core/emsdk/archive/{{ version }}.tar.gz
-  sha256: 99de90a1827044c5430b926db947bcb266c8bdab1a0f20fe34a62431d9174376
+  sha256: 3a207eed627366d9a7b31a634fa97c365cea0b6564b27e0cfadf7e53781606a3
 
 build:
   skip: true  # [win]
@@ -26,7 +26,7 @@ test:
 
 about:
   home: https://github.com/emscripten-core/emsdk
-  summary: 'Emscripten SDK'
+  summary: Emscripten SDK
   license: MIT
   license_family: MIT
   license_file: LICENSE
