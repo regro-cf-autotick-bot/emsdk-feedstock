@@ -1,1 +1,1 @@
-export CONDA_EMSDK_DIR=$PREFIX/lib/python$PY_VER/site-packages/emsdk
+export CONDA_EMSDK_DIR=$CONDA_PREFIX/lib/python$(python -c "import sys; print(f'{sys.version_info.major}.{sys.version_info.minor}')")/site-packages/emsdk
