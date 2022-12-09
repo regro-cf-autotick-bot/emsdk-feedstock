@@ -1,5 +1,5 @@
 {% set name = "emsdk" %}
-{% set version = "3.1.26" %}
+{% set version = "3.1.28" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/emscripten-core/emsdk/archive/{{ version }}.tar.gz
-  sha256: 6cb6fd281081f309f82a2769fa06633e25fd851a8539462676bf021c78a5ba19
+  sha256: b8270749b99d8d14922d1831b93781a5560fba6f7bce65cd477fc1b6aa262535
 
 build:
   number: 0
